@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--qrcode.js link-->
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+    <!--Bulma Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link rel="icon" href="asset/qrcode.png" type="image/x-icon">
+    <title>Barcode Generator for Free</title>
+</head>
+<body class="is-centered">
+        <h2 class="has-text-centered judul">QR Code Generator</h2>
+        <br><br><br>
+        <!--masukkan nama untuk nama barcode-->
+        <div class="section">
+            <div class="container">
+              <div class="columns is-centered">
+                <div class="column is-10-mobile is-8-tablet is-6-desktop has-text-centered">
+          
+                  <!-- Input Nama Barcode -->
+                  <div class="control">
+                    <input id="name" class="input is-hovered" type="text" placeholder="Nama QR (misal: My Portofolio)" />
+                  </div>
+                  <br>
+          
+                  <!-- Input link -->
+                  <input id="text" class="input is-info" type="text" placeholder="Masukkin Linknya" />
+                  <br><br>
+          
+                  <!-- Tombol -->
+                  <div class="buttons is-centered">
+                    <button class="button is-primary" onclick="generateQR()">Generate</button>
+                    <button class="button is-link" onclick="downloadQR()">Download</button>
+                  </div>
+          
+                  <!-- Canvas QR -->
+                  <canvas id="canvas"></canvas>
+          
+                  <!-- Riwayat -->
+                  <h3 class="title is-5">Riwayat QR Code:</h3>
+                  <button class="button is-danger is-small" id="clear-btn" onclick="clearHistory()">🗑 Hapus Semua Riwayat</button>
+                  <div id="history"></div>
+          
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      <script src="./js/main.js"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

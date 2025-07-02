@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan and generate QR Code</title>
+    <!--Meta Info and SEO-->
+    <meta name="description" content="Buat dan scan QR Code dengan mudah dan cepat. Website ini memungkinkan Anda menghasilkan barcode/QR code serta memindainya secara langsung tanpa aplikasi tambahan.">
+    <meta name="keywords" content="barcode, QR code, generator QR, scanner QR, pembuat barcode online, scan barcode online, QR gratis, buat qr code, scan qr code">
+    <meta name="author" content="Faris Iskandar Hafidz">
+    
+    <!-- SEO Open Graph (untuk Facebook, WhatsApp) -->
+    <meta property="og:title" content="Barcode Generator & Scanner - Gratis & Online">
+    <meta property="og:description" content="Website gratis untuk membuat dan memindai barcode & QR code langsung tanpa aplikasi. Cocok untuk bisnis, tugas sekolah, dan kebutuhan harian.">
+    <meta property="og:image" content="./asset/qrcode.png">
+    <meta property="og:type" content="website">
+    
+    <link rel="icon" href="asset/qrcode.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.5.3/qrcode.min.js"></script>
+   <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="main-content">
+        <h1 class="title">Welcome :D</h1>
+        
+        <div class="gif-container">
+            <div class="gif-placeholder">
+                <small><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmUzbjBzbmVuZmVxd29oc3p3Z2xocG9qMzU3MXkxM2RseGR2YW41cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ON14Xiy1Ix2CLkXM0V/giphy.gif"></img></small>
+            </div>
+        </div>
+        
+        <div class="button-container">
+            <a class="custom-button" href="barcode-generate.html">
+                Generate QR Code
+            </a>
+            <a id="infoJs" class="custom-button">
+                Scanner QR Code
+            </a>
+            <button data-url="https://saweria.co/Halia" onclick="openFromData(this)" class="custom-button">
+                Buy Me Coffe 🍵
+            </button>
+            <button data-url="https://lizfia.vercel.app/" onclick="openFromData(this)" class="custom-button">
+                 My Portofolio
+            </button>
+        </div>
+    </div>
+    
+    <div class="footer-info">
+        <p>Dibuat oleh Faris Iskandar Hafidz dengan qrcode.js dan bulma</p>
+    </div>
+
+    <!--Javascript-->
+    <script src="./js/auth.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

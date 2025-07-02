@@ -1,0 +1,32 @@
+.judul {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+  }
+
+.custom-input {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#history-item {
+    margin-bottom: 10px;
+  }
+  #history-item img {
+    width: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  #history-item span {
+    font-weight: bold;
+  }
+  #clear-btn {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }

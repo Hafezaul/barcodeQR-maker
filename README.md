@@ -38,7 +38,7 @@ Sebuah  web sederhana untuk **membuat dan memindai QR Code** langsung dari brows
 
 ## 🔗 Live Demo
 
-👉 [Coba Aplikasinya](https://your-live-site-url.com)  
+👉 [Coba Aplikasinya](https://barcode-qr-maker.vercel.app/)  
 
 ---
 

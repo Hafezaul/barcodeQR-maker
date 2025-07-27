@@ -32,8 +32,6 @@ Sebuah  web sederhana untuk **membuat dan memindai QR Code** langsung dari brows
 
 <img src="./asset/main.png" alt="Tampilan QR Code Generator" width="600"/>
 
-> 💡 *Ganti URL gambar di atas dengan link file `preview.png` atau screenshot dari GitHub repository kamu.*
-
 ---
 
 ## 🔗 Live Demo
